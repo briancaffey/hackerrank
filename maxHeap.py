@@ -2,7 +2,6 @@
 
 class MaxHeap:
     def __init__(self, items = []):
-        # super().__init__()
         self.heap = [0]
         for i in items:
             self.heap.append(i)
