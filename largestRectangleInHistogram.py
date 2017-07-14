@@ -1,6 +1,8 @@
 # largestRectangleInHistogram.py
 class Solution:
 
+
+
     def largestRectangleArea(self, height):
         maxArea = 0
         stackHeight = []
@@ -21,5 +23,6 @@ class Solution:
                     maxArea = tempArea
             return maxArea
 
+solution = Solution()
 
-print Solution.largestRectangleArea([1,2,3,4,5])
+print solution.largestRectangleArea([1,2,3,4,5])
